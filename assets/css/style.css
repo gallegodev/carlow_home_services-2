@@ -241,9 +241,8 @@ hr {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
+    width: 462px;
+    height: 426px;
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
@@ -252,9 +251,10 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    background: url('../images/bg13.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    
 }
 
 /* Event times */
@@ -472,3 +472,27 @@ footer{
     }
 
 }
+
+
+/* For small screens sizes from 585px wide and down */
+
+@media screen and (max-width: 585px){
+
+    #circle-container {
+        width: 362px;
+        height: 373px;
+    }
+    
+    }
+
+
+/* For small screens sizes from 425px wide and down */
+
+@media screen and (max-width: 425px){
+
+    #circle-container {
+        width: 315px;
+        height: 326px;
+    }
+    
+    }

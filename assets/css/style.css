@@ -461,3 +461,14 @@ footer{
         column-count: 2;
     }
 }
+
+/* For small screens sizes from 685px wide and down */
+
+@media screen and (max-width: 685px){
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        
+    }
+
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -12,16 +12,9 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
-
-h1, h2 {
-    font-family: Roboto, sans-serif;
-    color: #252525;
-}
-
 /*Carlow Home Sevices Logo*/
 .navbar-dark .navbar-brand {
-    color: #252525;
+    color: rgba(0,123,255,.5);
 }
 
 .navbar-dark .navbar-brand:hover {
@@ -33,7 +26,7 @@ h1, h2 {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: inherit;
     white-space: nowrap;
     font-weight: 400;
@@ -43,6 +36,7 @@ h1, h2 {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #212529;
+    font-size: 1.3rem;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -172,6 +166,7 @@ h1, h2 {
     height: 600px;
 }
 
+
 #left-about{
     padding-top: 30px;
     width: 33%;
@@ -203,6 +198,15 @@ hr {
     margin-bottom: 50px;
 }
 
+.left-about-heading h2 {
+    color: rgba(0,123,255,.5);
+}
+
+.left-about-heading p {
+    font-family: Roboto, sans-serif;
+}
+
+
 .right-about-heading {
     width: 60%;
     float: left;
@@ -211,12 +215,19 @@ hr {
     margin-bottom: 50px;
 }
 
+.right-about-heading h2 {
+    color: rgba(0,123,255,.5);
+    font-family: Roboto, sans-serif;
+}
+
 .right-about-heading p {
     text-align: right;
+    font-family: Roboto, sans-serif;
 }
 
 .right-about-heading h2 {
     text-align: right;
+    font-family: Roboto, sans-serif;
 }
 
 /* Club ethos center image */
@@ -224,7 +235,9 @@ hr {
 #welcome {
     margin: 20px 0;
     text-align: center;
-    font-size: 280%;
+    font-size: 400%;
+    font-family: Courgette, sans-serif;
+    color: rgba(0,123,255,.5);
 }
 
 #circle-container {

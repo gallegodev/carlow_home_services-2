@@ -19,10 +19,20 @@ h1, h2 {
     color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+.navbar-dark .navbar-brand {
+    color: #252525;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #212529;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #212529;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #212529;
 }
 
 /* navigation links */

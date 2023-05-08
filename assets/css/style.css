@@ -7,8 +7,8 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
     color: #3a3a3a;
 }
 
@@ -19,9 +19,23 @@ h1, h2 {
     color: #252525;
 }
 
+/*Carlow Home Sevices Logo*/
 .navbar-dark .navbar-brand {
-    color: #252525;
+    color: rgba(0,123,255,.5);
 }
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+/*Carlow Home Sevices navbar paths*/
 
 .navbar-dark .navbar-nav .nav-link {
     color: #212529;
@@ -37,6 +51,17 @@ h1, h2 {
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #212529;
+}
+
+/*dropdown box*/
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgba(0,123,255,.5);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
 }
 
 /* navigation links */
@@ -84,7 +109,7 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background: url('../images/bg02.jpg') no-repeat center center;
 
@@ -106,21 +131,14 @@ h1, h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
+    font-family: Roboto, sans-serif;
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
+    background-color: #ff4707b0;
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
 

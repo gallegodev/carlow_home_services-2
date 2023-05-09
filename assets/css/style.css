@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-dark .navbar-brand:hover {
-    color: rgba(0,123,255,.5);
+    color: rgba(0, 123, 255, 0.795);
 }
 
 .navbar-brand {
@@ -123,13 +123,17 @@ body {
     font-size: 130%;
     font-family: Roboto, sans-serif;
     width: 300px;
-    height: 200px;
+    height: 300px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: #ff4707b0;
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+#cover-text p {
+    font-size: 1rem;
 }
 
 /* Club ethos */
@@ -282,8 +286,9 @@ footer{
     padding: 5%;
     color: rgba(0,123,255,.5);;
 }
-
-
+.social-networks i:hover{
+    color: rgba(0, 123, 255, 0.795);
+}
 
 /* Media queries */
 
@@ -395,7 +400,19 @@ footer{
     
     }
 
+/* For small screens sizes from 475px wide and down */
 
+@media screen and (max-width: 475px){
+   
+    .second-welcome{
+        font-size: 350%;
+    }
+    
+    .find-us-info {
+        font-size: 160%;
+        
+    }
+}
 /* For small screens sizes from 425px wide and down */
 
 @media screen and (max-width: 425px){

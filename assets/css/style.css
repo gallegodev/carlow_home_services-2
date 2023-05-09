@@ -98,6 +98,15 @@ body {
     color: #fff;
 }
 
+#hero-image-text{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 250%;
+    padding: 28px;
+    font-family: Courgette, sans-serif;
+    color: #000000b3;
+}
+
 #hero-image {
     height: 550px;
     width: 100%;

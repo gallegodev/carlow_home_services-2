@@ -82,35 +82,6 @@ body {
     color: rgba(0,123,255,.5);
 }
 
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 /* hero image and cover text */
 
@@ -121,6 +92,7 @@ body {
 
     position: relative;
 }
+
 
 #cover-text, #cover-text h2 {
     color: #fff;
@@ -274,6 +246,13 @@ hr {
     color: #3a3a3a;
 }
 
+.find-us-info{
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 250%;
+    color: #3a3a3a;
+}
 
 #find-us-image{
     height: 550px;
@@ -298,79 +277,12 @@ footer{
 }
 
 .social-networks i{
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgba(0,123,255,.5);;
 }
 
-/* Gallery Photos */
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
-}
-
-#photo img{
-    width: 100%;
-}
-
-/* Form */
-
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
 
 
 /* Media queries */

@@ -180,6 +180,12 @@ body {
     float: left;
 }
 
+#left-about-chimney{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
 #right-about {
     padding-top: 30px;
     width: 33%;

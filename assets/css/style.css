@@ -107,6 +107,15 @@ body {
     color: #000000b3;
 }
 
+#hero-image-text-chimney{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 250%;
+    padding: 28px;
+    font-family: Courgette, sans-serif;
+    color: #ffc107;
+}
+
 #hero-image {
     height: 550px;
     width: 100%;
@@ -253,6 +262,18 @@ hr {
     color: rgba(0,123,255,.5);
 }
 
+/*Chimney.html*/
+.welcome-chimney{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 400%;
+    font-family: Courgette, sans-serif;
+    color: rgba(0,123,255,.5);
+
+}
+
+/*----------------------------------*/
+
 #circle-container {
     width: 462px;
     height: 426px;
@@ -330,7 +351,7 @@ footer{
 /*chimney.html section*/
 
 #menu-box{
-    height: 1100px;
+    height: 1310px;
     background-image: url(../images/menu1.jpg);
     background-size: cover;
     width: 100%;
@@ -340,9 +361,9 @@ footer{
 
 
 .menu-content {
-    height: 800px;
+    height: 1240px;
     width: 600px;
-    background-color: #fafafa;
+    background-color: #e9ecef;
     margin: 50px 10% 0 0;
     position: absolute;
     left: 35%;
@@ -423,6 +444,11 @@ footer{
     .menu-content {
         left: 23%;
     }
+
+    .welcome-chimney{
+        font-size: 200%;
+    
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -470,7 +496,7 @@ footer{
     }
     
     .menu-content {
-        height: 900px;
+        height: 1040px;
         width: 100%;
         margin: 0 auto;
         margin-top: 30px;
@@ -487,6 +513,11 @@ footer{
     .menu-content > h4 {
         text-align: center;
     }
+
+    .menu-content > ul {
+
+        text-align: center;
+    }
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -494,7 +525,19 @@ footer{
     #photo{
         column-count: 2;
     }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
 }
+
+/* For small screens sizes from 750px wide and down */
+@media screen and (max-width: 750px){
+    .menu-content {
+        height: 1110px;
+    }
+}
+
 
 /* For small screens sizes from 685px wide and down */
 
@@ -503,6 +546,14 @@ footer{
     .navbar-brand {
         font-size: 1.5rem;
         
+    }
+
+    .menu-content {
+        height: 1240px;
+    }
+
+    #menu-box {
+        height: 1288px;
     }
 
 }
@@ -515,6 +566,34 @@ footer{
     #circle-container {
         width: 362px;
         height: 373px;
+    }
+    
+    }
+
+/* For small screens sizes from 535px wide and down */
+
+@media screen and (max-width: 535px){
+
+    #menu-box {
+        height: 1410px;
+    }
+
+    .menu-content {
+        height: 1350px;
+    }
+    
+    }
+
+/* For small screens sizes from 510px wide and down */
+
+@media screen and (max-width: 510px){
+
+    #menu-box {
+        height: 1680px;
+    }
+
+    .menu-content {
+        height: 1640px;
     }
     
     }

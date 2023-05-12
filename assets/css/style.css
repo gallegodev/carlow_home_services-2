@@ -327,6 +327,57 @@ footer{
     color: rgba(0, 123, 255, 0.795);
 }
 
+/*chimney.html section*/
+
+#menu-box{
+    height: 1100px;
+    background-image: url(../images/menu1.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
+.menu-content {
+    height: 800px;
+    width: 600px;
+    background-color: #fafafa;
+    margin: 50px 10% 0 0;
+    position: absolute;
+    left: 35%;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-content > h3 {
+    font-size: 35px;
+    color: rgba(0,123,255,.5);
+}
+
+.menu-content > h4 {
+    text-align: left;
+    font-size: 30px;
+    color: rgba(0,123,255,.5);
+}
+
+.menu-content > p {
+    text-align: left;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.menu-content > h5 {
+        color: rgba(0,123,255,.5);
+        font-size: 1.25rem;
+}
+
+.menu-content > ul {
+    color: rgba(0,123,255,.5);
+    font-size: 1.25rem;
+    text-align: left;
+}
+
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
@@ -367,6 +418,13 @@ footer{
     }
 }
 
+/* For medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    .menu-content {
+        left: 23%;
+    }
+}
+
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
@@ -404,6 +462,30 @@ footer{
 
     #photo{
         column-count: 3;
+    }
+    /*chimney.html*/
+
+    #menu-box{
+        height: 1200px;
+    }
+    
+    .menu-content {
+        height: 900px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        position: absolute;
+        left: 0%;
+        padding: 5px;
+    }
+    
+    .menu-content > p {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .menu-content > h4 {
+        text-align: center;
     }
 }
 

@@ -425,6 +425,44 @@ footer{
     text-align: left;
 }
 
+/*window.html menu*/
+#menu-box-window{
+    height: 835px;
+    background-image: url(../images/menu1.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+
+.menu-content-window {
+    height: 735px;
+    width: 600px;
+    background-color: #e9ecef;
+    margin: 50px 10% 0 0;
+    position: absolute;
+    left: 35%;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-content-window > h3 {
+    font-size: 35px;
+    color: rgba(0,123,255,.5);
+}
+
+.menu-content-window > h4 {
+    text-align: left;
+    font-size: 30px;
+    color: rgba(0,123,255,.5);
+}
+
+.menu-content-window > p {
+    text-align: left;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
@@ -468,7 +506,11 @@ footer{
 /* For medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
     .menu-content {
-        left: 23%;
+        left: 20%;
+    }
+
+    .menu-content-window {
+        left: 20%;
     }
 
     .welcome-chimney{
@@ -530,8 +572,22 @@ footer{
         left: 0%;
         padding: 5px;
     }
+
+    .menu-content-window {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        position: absolute;
+        left: 0%;
+        padding: 5px;
+    }
     
     .menu-content > p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .menu-content-window > p {
         width: 90%;
         text-align: center;
     }
@@ -540,11 +596,16 @@ footer{
         text-align: center;
     }
 
+    .menu-content-window > h4 {
+        text-align: center;
+    }
+
     .menu-content > ul {
 
         text-align: center;
     }
 }
+
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
@@ -562,6 +623,7 @@ footer{
     .menu-content {
         height: 1110px;
     }
+
 }
 
 
@@ -607,8 +669,11 @@ footer{
     .menu-content {
         height: 1350px;
     }
-    
+
+    .menu-content-window {
+        height: 805px;
     }
+}
 
 /* For small screens sizes from 510px wide and down */
 
@@ -637,6 +702,27 @@ footer{
         
     }
 }
+
+/* For small screens sizes from 450px wide and down */
+
+@media screen and (max-width: 450px){
+
+    #circle-container {
+        width: 315px;
+        height: 326px;
+    }
+
+    #menu-box-window {
+        height: 905px;
+    }
+
+    .menu-content-window {
+        height: 870px;
+    }
+    
+    }
+
+
 /* For small screens sizes from 425px wide and down */
 
 @media screen and (max-width: 425px){
@@ -647,3 +733,19 @@ footer{
     }
     
     }
+
+/* For small screens sizes from 400px wide and down */
+
+@media screen and (max-width: 400px){
+
+    #menu-box-window {
+        height: 980px;
+    }
+
+    .menu-content-window {
+        height: 940px;
+    }
+    
+    }
+
+    

@@ -137,6 +137,7 @@ body {
     }
 }
 
+/* chimney.html logo image*/
 #hero-image-chimney{
         height: 550px;
         width: 100%;
@@ -157,6 +158,31 @@ body {
             transform: scale(1.1);
         }
     }
+
+/*window.html logo image*/
+
+#hero-image-window{
+    height: 550px;
+    width: 100%;
+    background: url('../images/bg22.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
 
 
 #cover-text {

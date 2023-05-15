@@ -106,7 +106,7 @@ body {
     font-family: Courgette, sans-serif;
     color: #000000b3;
 }
-
+/*chimney.html*/
 #hero-image-text-chimney{
     margin: 20px 0;
     text-align: center;
@@ -115,6 +115,8 @@ body {
     font-family: Courgette, sans-serif;
     color: #ffc107;
 }
+/**/
+
 
 #hero-image {
     height: 550px;
@@ -165,6 +167,30 @@ body {
     height: 550px;
     width: 100%;
     background: url('../images/bg22.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/*gutters.html logo image*/
+
+#hero-image-gutters{
+
+    height: 550px;
+    width: 100%;
+    background: url('../images/bg23.jpg') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;

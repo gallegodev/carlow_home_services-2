@@ -163,6 +163,15 @@ body {
 
 /*window.html logo image*/
 
+#hero-image-text-window {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 350%;
+    padding: 28px;
+    font-family: Courgette, sans-serif;
+    color: rgb(55 136 224);
+}
+
 #hero-image-window{
     height: 550px;
     width: 100%;
@@ -790,11 +799,15 @@ footer{
     }
 
     #hero-image-text {
-        font-size: 150%;
+        font-size: 170%;
     }
 
     #hero-image-text-chimney {
-        font-size: 150%;
+        font-size: 170%;
+    }
+
+    #hero-image-text-window {
+        font-size: 170%;
     }
 
     #cover-text {
@@ -813,7 +826,7 @@ footer{
     }
 
     #cover-text p {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
 }

@@ -166,7 +166,7 @@ body {
 #hero-image-window{
     height: 550px;
     width: 100%;
-    background: url('../images/bg22.jpg') no-repeat center center;
+    background: url('../images/bg49.jpg') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -235,9 +235,9 @@ body {
 /* birdnest.html logoimage*/
 #hero-image-birdnest {
 
-    height: 550px;
+    height: 844px;
     width: 100%;
-    background: url('../images/bg30.jpg') no-repeat center center;
+    background: url('../images/bg39.jpg') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -769,6 +769,24 @@ footer{
     #hero-image {
         height: 313px;
         background: url(../images/bg36.jpg) no-repeat center center;
+    }
+
+    #hero-image-birdguard {
+        background: url(../images/bg38.jpg) no-repeat center center;
+    }
+
+    #hero-image-birdnest {
+        background: url('../images/bg40.jpg') no-repeat center center;
+        height: 483px;
+    }
+
+    #hero-image-cctv {
+        background: url(../images/bg44.jpg) no-repeat center center;
+        height: 387px;
+    }
+
+    #hero-image-window {
+        background: url(../images/bg50.jpg) no-repeat center center;
     }
 
     #hero-image-text {

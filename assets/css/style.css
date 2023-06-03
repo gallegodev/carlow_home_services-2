@@ -101,16 +101,16 @@ body {
 #hero-image-text{
     margin: 20px 0;
     text-align: center;
-    font-size: 250%;
+    font-size: 350%;
     padding: 28px;
     font-family: Courgette, sans-serif;
-    color: #000000b3;
+    color: #fff;
 }
 /*chimney.html*/
 #hero-image-text-chimney{
     margin: 20px 0;
     text-align: center;
-    font-size: 250%;
+    font-size: 350%;
     padding: 28px;
     font-family: Courgette, sans-serif;
     color: #ffc107;
@@ -121,7 +121,7 @@ body {
 #hero-image {
     height: 550px;
     width: 100%;
-    background: url('../images/bg02.jpg') no-repeat center center;
+    background: url('../images/bg35.jpg') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;

@@ -758,6 +758,48 @@ footer{
     
     }
 
+/* For small screens sizes from 540px wide and down */
+
+@media screen and (max-width: 540px){
+
+    #hero-outer {
+        height: 352px;
+    }
+
+    #hero-image {
+        height: 313px;
+        background: url(../images/bg36.jpg) no-repeat center center;
+    }
+
+    #hero-image-text {
+        font-size: 150%;
+    }
+
+    #hero-image-text-chimney {
+        font-size: 150%;
+    }
+
+    #cover-text {
+        font-size: 10%;
+        width: 365px;
+        height: 186px;
+        background-color: #ff47076b
+    }
+
+    #cover-text h2 {
+        font-size: 20px;
+    }
+
+    #cover-text h3 {
+        font-size: 1rem;
+    }
+
+    #cover-text p {
+        font-size: 1rem;
+    }
+
+}
+
 /* For small screens sizes from 535px wide and down */
 
 @media screen and (max-width: 535px){
@@ -774,6 +816,7 @@ footer{
         height: 805px;
     }
 }
+
 
 /* For small screens sizes from 510px wide and down */
 
